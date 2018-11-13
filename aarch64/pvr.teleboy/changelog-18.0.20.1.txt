@@ -1,0 +1,59 @@
+v18.0.20
+ - Add missing mutex unlock
+v18.0.19
+ - Update to PVR API v5.10.1
+v18.0.18
+ - Update to PVR API v5.10.0
+v18.0.17
+ - Add additional EPG fields (thanks to martinwilli)
+v18.0.16
+ - Seek 5 minutes into replay and recording stream
+v18.0.15
+ - Update to PVR API 5.9.0
+v18.0.14
+ - Log notice if t.teleboy.ch is used
+v18.0.13
+ - Fix null pointer exception
+v18.0.12
+ - Cleanup due to merge in Kodi
+v18.0.11
+ - Follow stream redirects to workaround bug in inputstream.adaptive
+v18.0.10
+ - Automatically switch to t.teleboy.ch if redirected
+v18.0.9
+ - Allow switching to t.teleboy.ch
+v18.0.8
+ - Fix time zone handling
+ - Fix race conditions while closing the addon
+v18.0.7
+ - Fix login for free accounts
+v18.0.6
+ - Output HTML body in case login fails
+v18.0.5
+ - Make loading EPG multithreaded
+v18.0.4
+ - Add debian folder
+v18.0.3
+ - Fix windows build
+ - Limit update threads to 1
+v18.0.2
+ - Switch to kodi curl implementation
+ - Load EPG async
+ - Cleanup
+v18.0.1
+ - Implement replay api
+v18.0.0
+ - Adapt for Kodi 18 Leia
+v17.0.5
+ - Initial support for Kodi 18 Leia
+ - Added minimalistic support for PVR Addon API 5.3.0
+v17.0.4
+ - Add some information to recordings and epg
+v17.0.3
+ - Add UpdateThread to update timer and recordings
+v17.0.2
+ - Fix error upon installation without settings
+v17.0.1
+ - Remove fixed userId
+v17.0.0
+ - Initial version
